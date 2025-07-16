@@ -1,0 +1,131 @@
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f3f6f9;
+    color: #22223b;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #8338ec 0%, #ffbe0b 100%);
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0 1.2rem 0;
+    box-shadow: none;
+    border-bottom: 2px solid #ff006e;
+}
+
+header h1 {
+    margin: 0 0 0.3rem 0;
+    font-size: 2.3rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+h1, h2 {
+    color: #22223b;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    padding: 0.6rem 0 0.1rem 0;
+}
+
+.navbar a {
+    color: #fff;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.4em 1em;
+    border-radius: 100px;
+    background: transparent;
+    transition: background 0.2s, color 0.2s;
+}
+
+.navbar a:hover {
+    background: #ffbe0b;
+    color: #22223b;
+}
+
+/* Main Layout */
+main {
+    padding: 2.5rem 1rem;
+    text-align: center;
+}
+
+/* List Styles */
+ul {
+    list-style: none;
+    padding: 0;
+    max-width: 440px;
+    margin: 2rem auto 0 auto;
+}
+
+li {
+    background: #f7b801;
+    color: #22223b;
+    padding: 1.1em 1em;
+    margin: 1.2em 0;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 2px 14px rgba(131,56,236,0.08);
+    font-weight: 500;
+    transition: transform 0.1s;
+}
+li:hover {
+    transform: scale(1.025);
+    background: #ffbe0bb5;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3a86ff;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #ff006e;
+    text-decoration: underline;
+}
+
+/* Forms */
+form {
+    max-width: 440px;
+    margin: 2.5rem auto 0 auto;
+    background: #fff;
+    border-radius: 24px;
+    padding: 2em 1.3em 1.2em 1.3em;
+    box-shadow: 0 2px 18px rgba(58,134,255,0.05);
+    border: none;
+}
+
+/* Buttons */
+button {
+    background: linear-gradient(90deg, #ff006e 0%, #3a86ff 100%);
+    color: #fff;
+    border: none;
+    padding: 0.8em 2.2em;
+    font-size: 1rem;
+    border-radius: 100px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+button:hover {
+    background: linear-gradient(90deg, #3a86ff 0%, #ffbe0b 100%);
+}
+
+/* Footer */
+footer {
+    margin: 2rem 0 0 0;
+    text-align: center;
+    font-size: 0.9rem;
+}

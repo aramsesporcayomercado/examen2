@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Lista de Pendientes</h2>
+<ul>
+    {% for todo in object_list %}
+    <li>{{ todo }}</li>
+    {% empty %}
+    <li>No hay pendientes</li>
+    {% endfor %}
+</ul>
+<a href="{% url 'todos:add' %}">Registrar Pendientes</a>
+{% endblock %}
